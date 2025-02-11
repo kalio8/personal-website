@@ -1,0 +1,5 @@
+- source: project
+  netlify:
+    - id: e7085620-be7d-4bee-9dd3-4386f534608f
+      url: "https://kaliolmsted.netlify.app"
+      
