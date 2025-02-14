@@ -1,11 +1,13 @@
 ---
-title: "personal website"
+title: "Kali Olmsted"
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am currently a fourth year Statistics Ph.D. student at University of California, Los Angeles *(UCLA)* working with [Hongquan Xu](http://www.stat.ucla.edu/~hqxu/). Prior to joining UCLA, I obtained my BA and MS degrees in Statistics from California State University, Fullerton. You can learn more about me from my [CV](/docs/CV/CV.pdf "CV")
 
-```{r}
-1 + 9
-```
+
+I am gratefully funded by the [Eugene V. Cota-Robles Fellowship](https://grad.ucla.edu/funding/financial-aid/funding-for-entering-students/eugene-v-cota-robles-fellowship/)
+
+
+**Email**: [toledo60@g.ucla.edu](mailto:toledo60@g.ucla.edu) <br/>
+---

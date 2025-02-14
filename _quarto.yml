@@ -1,21 +1,30 @@
 project:
   type: website
 
+title: "Kali Olmsted"
+about:
+    template: trestles
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          url: https://www.linkedin.com/in/kali-olmsted-99005a221/
+        - icon: github
+          text: Github
+          url: https://github.com/kalio8
+image: cropped.jpg
+comments: false
+
 website:
-  title: "personal website"
+  reader-mode: true
   navbar:
+    title: false
+    background: white
+    foreground: "gray-800"
+    collapse-below: sm  
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
-
-format:
-  html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
-
-editor: visual
-
+        text: About
+      - href: projects.qmd
+        text: Projects
+  page-footer:
+    right: "&copy; 2025, Kali Olmsted"
