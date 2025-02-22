@@ -4,21 +4,7 @@
     "href": "index.html",
     "title": "Kali Olmsted",
     "section": "",
-    "text": "I am currently a fourth year Statistics Ph.D. student at University of California, Los Angeles (UCLA) working with Hongquan Xu. Prior to joining UCLA, I obtained my BA and MS degrees in Statistics from California State University, Fullerton. You can learn more about me from my CV\nI am gratefully funded by the Eugene V. Cota-Robles Fellowship"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html#email-toledo60g.ucla.edu",
-    "href": "index.html#email-toledo60g.ucla.edu",
-    "title": "Kali Olmsted",
-    "section": "Email: toledo60@g.ucla.edu ",
-    "text": "Email: toledo60@g.ucla.edu"
+    "text": "I am currently a fourth year student at University of California, Los Angeles (UCLA) working to obtain my BS in Statistics and Data Science. Throughout my coursework and projects I’ve strengthened my abilities in cleaning, preprocessing, modeling, and interpreting data to support data-driven decisions. I am passionate about using data to solve real-world problems and am eager to apply my skills in practical and impactful ways."
   },
   {
     "objectID": "index.html#email-kaliliu2003gmail.com",
@@ -26,5 +12,12 @@
     "title": "Kali Olmsted",
     "section": "Email: kaliliu2003@gmail.com ",
     "text": "Email: kaliliu2003@gmail.com"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]
