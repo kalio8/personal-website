@@ -2,12 +2,6 @@
 title: "Kali Olmsted"
 ---
 
+I am currently a fourth year student at University of California, Los Angeles (UCLA) working to obtain my BS in Statistics and Data Science. Throughout my coursework and projects I've strengthened my abilities in cleaning, preprocessing, modeling, and interpreting data to support data-driven decisions. I am passionate about using data to solve real-world problems and am eager to apply my skills in practical and impactful ways.
 
-I am currently a fourth year Statistics Ph.D. student at University of California, Los Angeles *(UCLA)* working with [Hongquan Xu](http://www.stat.ucla.edu/~hqxu/). Prior to joining UCLA, I obtained my BA and MS degrees in Statistics from California State University, Fullerton. You can learn more about me from my [CV](/docs/CV/CV.pdf "CV")
-
-
-I am gratefully funded by the [Eugene V. Cota-Robles Fellowship](https://grad.ucla.edu/funding/financial-aid/funding-for-entering-students/eugene-v-cota-robles-fellowship/)
-
-
-**Email**: [toledo60@g.ucla.edu](mailto:toledo60@g.ucla.edu) <br/>
----
+## **Email**: kaliliu2003\@gmail.com <br/>
