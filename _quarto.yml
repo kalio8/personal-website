@@ -17,7 +17,7 @@ about:
           url: "Kali_Olmsted_Resume.pdf"
 
         
-image: cropped.jpg
+image: images\cropped.jpg
 comments: false
 
 website:
@@ -30,8 +30,8 @@ website:
     left:
       - href: index.qmd
         text: About
-      - href: projects.qmd
-        text: Projects
+      - href: my_projects.qmd
+        text: My Projects
   page-footer:
     right: "&copy; 2025, Kali Olmsted"
     

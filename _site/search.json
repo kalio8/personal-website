@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "my_projects.html",
+    "href": "my_projects.html",
+    "title": "My Projects",
+    "section": "",
+    "text": "Hello there\n\n\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKali Olmsted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Kali Olmsted",
@@ -32,13 +46,13 @@
     "href": "index.html#extracurriculars",
     "title": "Kali Olmsted",
     "section": "Extracurriculars",
-    "text": "Extracurriculars\nBreak Through Tech AI | UCLA | April 2024 - Present"
+    "text": "Extracurriculars\nBreak Through Tech AI | Cornell Tech  April 2024 - Present\nYoung Tech Profesionals | Innovate@UCLA  March - June 2024"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "objectID": "index.html#awards",
+    "href": "index.html#awards",
+    "title": "Kali Olmsted",
+    "section": "Awards",
+    "text": "Awards"
   }
 ]
