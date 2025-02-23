@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - Kali_Olmsted_Resume.pdf
 
 title: "Kali Olmsted"
 about:
@@ -11,6 +13,10 @@ about:
         - icon: github
           text: Github
           url: https://github.com/kalio8
+        - text: Resume
+          url: "Kali_Olmsted_Resume.pdf"
+
+        
 image: cropped.jpg
 comments: false
 
@@ -28,3 +34,4 @@ website:
         text: Projects
   page-footer:
     right: "&copy; 2025, Kali Olmsted"
+    
