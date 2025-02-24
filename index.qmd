@@ -1,6 +1,23 @@
 ---
 title: "Kali Olmsted"
+about:
+    template: trestles
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          url: https://www.linkedin.com/in/kali-olmsted-99005a221/
+        - icon: github
+          text: Github
+          url: https://github.com/kalio8
+        - text: Resume
+          url: "Kali_Olmsted_Resume.pdf"
+
+        
+image: images\cropped.jpg
+comments: false
+
 ---
+
 
 ## About Me
 

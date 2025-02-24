@@ -2,8 +2,9 @@
   {
     "listing": "/my_projects.html",
     "items": [
-      "/about.html",
-      "/index.html"
+      "/election.html",
+      "/racing.html",
+      "/wids.html"
     ]
   }
 ]
