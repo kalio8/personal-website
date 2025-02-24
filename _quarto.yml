@@ -1,7 +1,7 @@
 project:
   type: website
   resources:
-    -Kali_Olmsted_Resume.pdf
+    - Kali_Olmsted_Resume.pdf
 
 
 website:
