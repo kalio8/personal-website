@@ -1,5 +1,9 @@
 ---
 title: "Kali Olmsted"
+format:
+  html:
+    grid:
+      body-width: 1000px
 about:
     template: trestles
     links:
@@ -18,10 +22,14 @@ comments: false
 
 ---
 
-
 ## About Me
 
-I am currently a fourth year student at University of California, Los Angeles (UCLA) working to obtain my BS in Statistics and Data Science. Throughout my coursework and projects I've strengthened my abilities in cleaning, preprocessing, modeling, and interpreting data to support data-driven decisions. I am passionate about using data to solve real-world problems and am eager to apply my skills in practical and impactful ways.
+<div class="justified-text">
+
+I'm a current fourth year student at the University of California, Los Angeles (UCLA) working to obtain my BS in Statistics and Data Science. Throughout my coursework and projects, I've strengthened my abilities in data cleaning, preprocessing, modeling, and interpretation to make informed decisions. I am passionate about using data to solve real-world problems and I'm eager to apply my skills in practical and impactful ways.
+
+</div>
+
 
 ## Education
 
@@ -39,4 +47,15 @@ I am currently a fourth year student at University of California, Los Angeles (U
 
 [Young Tech Profesionals](https://oarc.ucla.edu/partnerships/innovateucla) *\|* Innovate\@UCLA <br/> March - June 2024
 
+
 ## Awards
+
+Most Societal Impact | Innovate@UCLA <br/> June 2024  
+
+Most Game Changing | Innovate@UCLA <br/> June 2024  
+
+1st Place For Research Presentation | San Diego Mesa College <br/> May 2023  
+
+
+
+

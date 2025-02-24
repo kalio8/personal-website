@@ -19,3 +19,7 @@ website:
   page-footer:
     right: "&copy; 2025, Kali Olmsted"
     
+format:
+  html:
+    css: styles.css
+    
