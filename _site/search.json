@@ -4,7 +4,7 @@
     "href": "my_projects.html",
     "title": "My Projects",
     "section": "",
-    "text": "Hello there\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElection Project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRacing Project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWids Project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Election Project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPirelli vs. Hankook Tires\n\n\nImpact on Lap Speed and Racing Performance\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWids Project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -54,5 +54,33 @@
     "title": "Kali Olmsted",
     "section": "Awards",
     "text": "Awards\nMost Societal Impact | Innovate@UCLA  June 2024\nMost Game Changing | Innovate@UCLA  June 2024\n1st Place For Research Presentation | San Diego Mesa College  May 2023"
+  },
+  {
+    "objectID": "racing.html",
+    "href": "racing.html",
+    "title": "Pirelli vs. Hankook Tires",
+    "section": "",
+    "text": "In proffessional racing, tires play a critical role in racing performance. With the recent transition from Pirelli to Hankook tires in the Lamborghini Super Trofeo series, our team analyzed how this change impacted race performance. By examining lap time data and other fetaures from multiple racing seasons, we assessed the effects of tire degradation and overall performance differences between Pirelli and Hankook. Our analysis provids insights into how tire type influence speed and durability, particularly under varying weather and track conditions."
+  },
+  {
+    "objectID": "racing.html#introduction",
+    "href": "racing.html#introduction",
+    "title": "Pirelli vs. Hankook Tires",
+    "section": "",
+    "text": "In proffessional racing, tires play a critical role in racing performance. With the recent transition from Pirelli to Hankook tires in the Lamborghini Super Trofeo series, our team analyzed how this change impacted race performance. By examining lap time data and other fetaures from multiple racing seasons, we assessed the effects of tire degradation and overall performance differences between Pirelli and Hankook. Our analysis provids insights into how tire type influence speed and durability, particularly under varying weather and track conditions."
+  },
+  {
+    "objectID": "racing.html#data",
+    "href": "racing.html#data",
+    "title": "Pirelli vs. Hankook Tires",
+    "section": "Data",
+    "text": "Data\nThe data comes from the Lamborghini Super Trofeo Series, specifically from the Laguna Seca Raceway Rounds. We examined Race 1 and 2 that use the Pirelli tires (2021 and 2022) and Race 1 and 2 that use the Hankook tires (2023 and 2024)\nData"
+  },
+  {
+    "objectID": "racing.html#visualizations",
+    "href": "racing.html#visualizations",
+    "title": "Pirelli vs. Hankook Tires",
+    "section": "Visualizations",
+    "text": "Visualizations\n\n\nDescription of the first visualization or what it represents."
   }
 ]

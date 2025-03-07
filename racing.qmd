@@ -1,5 +1,30 @@
 ---
-title: "Racing Project"
-image: images\racecar.jpg
-
+title: "Pirelli vs. Hankook Tires"
+image: images/racecar.jpg
+description: "Impact on Lap Speed and Racing Performance"
 ---
+
+
+## Introduction  
+
+In proffessional racing, tires play a critical role in racing performance. With the recent transition from Pirelli to Hankook tires in the Lamborghini Super Trofeo series, our team analyzed how this change impacted race performance. By examining lap time data and other fetaures from multiple racing seasons, we assessed the effects of tire degradation and overall performance differences between Pirelli and Hankook. Our analysis provids insights into how tire type influence speed and durability, particularly under varying weather and track conditions.
+
+
+# Research Question
+
+How do Hankook and Pirelli tires compare in durability over the course of a race, especially in different weather and track temperatures?
+
+
+## Data 
+
+The data comes from the Lamborghini Super Trofeo Series, specifically from the Laguna Seca Raceway Rounds. We examined Race 1 and 2 that use the Pirelli tires (2021 and 2022) and Race 1 and 2 that use the Hankook tires (2023 and 2024)
+
+[Data](https://www.lamborghini.com/en-en/motorsport/super-trofeo/north-america)
+
+
+## Visualizations
+
+<img src="images/hankook23.jpg" width="550px" alt="Visualization 1">
+<p>Description of the first visualization or what it represents.</p>
+
+
