@@ -1,10 +1,38 @@
 [
   {
+    "objectID": "wids.html",
+    "href": "wids.html",
+    "title": "WiDS Datathon 2025",
+    "section": "",
+    "text": "GitHub Repo"
+  },
+  {
+    "objectID": "wids.html#introduction",
+    "href": "wids.html#introduction",
+    "title": "WiDS Datathon 2025",
+    "section": "Introduction",
+    "text": "Introduction\nThe WiDS Datathon Global Challenge 2025 focuses on leveraging data science to understand neuropsychiatric disorders, particularly ADHD, and their differences across sexes. Our team participated in this challenge to develop a multi-outcome model that predicts both an individual’s sex and ADHD diagnosis using functional brain imaging and socio-demographic data. By analyzing brain activity patterns, emotions, and parenting influences, we aimed to uncover sex-specific differences in ADHD presentation. Our findings contribute to the broader goal of improving early diagnosis and personalized treatment strategies for individuals affected by ADHD."
+  },
+  {
+    "objectID": "wids.html#research-question",
+    "href": "wids.html#research-question",
+    "title": "WiDS Datathon 2025",
+    "section": "Research Question",
+    "text": "Research Question\nWhat brain activity patterns are associated with ADHD; are they different between males and females, and, if so, how?"
+  },
+  {
+    "objectID": "wids.html#data",
+    "href": "wids.html#data",
+    "title": "WiDS Datathon 2025",
+    "section": "Data",
+    "text": "Data\nThe dataset comes from the Healthy Brain Network (HBN) and the Reproducible Brain Charts (RBC) project. It includes diagnostic data, socio-demographic details, emotional and parenting assessments, and functional MRI data from over 1,200 participants. The functional MRI data captures brain activity patterns through connectome matrices, which represent correlations between different brain regions over time.\nData Source: Healthy Brain Network, Reproducible Brain Charts"
+  },
+  {
     "objectID": "my_projects.html",
     "href": "my_projects.html",
     "title": "My Projects",
     "section": "",
-    "text": "Election Project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPirelli vs. Hankook Tires\n\n\nImpact on Lap Speed and Racing Performance\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWids Project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Pirelli vs. Hankook Tires\n\n\nImpact on Lap Speed and Racing Performance\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWiDS Datathon 2025\n\n\nPredicting ADHD and sex using brain imaging\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -60,21 +88,28 @@
     "href": "racing.html",
     "title": "Pirelli vs. Hankook Tires",
     "section": "",
-    "text": "In proffessional racing, tires play a critical role in racing performance. With the recent transition from Pirelli to Hankook tires in the Lamborghini Super Trofeo series, our team analyzed how this change impacted race performance. By examining lap time data and other fetaures from multiple racing seasons, we assessed the effects of tire degradation and overall performance differences between Pirelli and Hankook. Our analysis provids insights into how tire type influence speed and durability, particularly under varying weather and track conditions."
+    "text": "GitHub Repo"
   },
   {
     "objectID": "racing.html#introduction",
     "href": "racing.html#introduction",
     "title": "Pirelli vs. Hankook Tires",
-    "section": "",
-    "text": "In proffessional racing, tires play a critical role in racing performance. With the recent transition from Pirelli to Hankook tires in the Lamborghini Super Trofeo series, our team analyzed how this change impacted race performance. By examining lap time data and other fetaures from multiple racing seasons, we assessed the effects of tire degradation and overall performance differences between Pirelli and Hankook. Our analysis provids insights into how tire type influence speed and durability, particularly under varying weather and track conditions."
+    "section": "Introduction",
+    "text": "Introduction\nIn proffessional racing, tires play a critical role in racing performance. With the recent transition from Pirelli to Hankook tires in the Lamborghini Super Trofeo series, our team analyzed how this change impacted race performance. By examining lap time data and other fetaures from multiple racing seasons, we assessed the effects of tire degradation and overall performance differences between Pirelli and Hankook. Our analysis provids insights into how tire type influence speed and durability, particularly under varying weather and track conditions."
+  },
+  {
+    "objectID": "racing.html#research-question",
+    "href": "racing.html#research-question",
+    "title": "Pirelli vs. Hankook Tires",
+    "section": "Research Question",
+    "text": "Research Question\nHow do Hankook and Pirelli tires compare in durability over the course of a race, especially in different weather and track temperatures?"
   },
   {
     "objectID": "racing.html#data",
     "href": "racing.html#data",
     "title": "Pirelli vs. Hankook Tires",
     "section": "Data",
-    "text": "Data\nThe data comes from the Lamborghini Super Trofeo Series, specifically from the Laguna Seca Raceway Rounds. We examined Race 1 and 2 that use the Pirelli tires (2021 and 2022) and Race 1 and 2 that use the Hankook tires (2023 and 2024)\nData"
+    "text": "Data\nThe data comes from the Lamborghini Super Trofeo Series, specifically from the Laguna Seca Raceway Rounds. We examined Race 1 and 2 that use the Pirelli tires (2021 and 2022) and Race 1 and 2 that use the Hankook tires (2023 and 2024)\nData Source: IMSA Timing Results"
   },
   {
     "objectID": "racing.html#visualizations",

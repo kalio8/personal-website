@@ -3,7 +3,6 @@ title: "My Projects"
 listing:
   contents: 
   - "wids.qmd"
-  - "election.qmd"
   - "racing.qmd"
   type: grid
 ---

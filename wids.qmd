@@ -1,5 +1,29 @@
 ---
-title: "Wids Project"
+title: "WiDS Datathon 2025"
 image: images\brain.jpg
+description: "Predicting ADHD and sex using brain imaging"
+format:
+  html:
+    theme: cosmo
+    css: styles.css
 
 ---
+
+[GitHub Repo](https://github.com/divyagsubramonian/WiDS-Team24)
+
+
+## Introduction  
+
+The WiDS Datathon Global Challenge 2025 focuses on leveraging data science to understand neuropsychiatric disorders, particularly ADHD, and their differences across sexes. Our team participated in this challenge to develop a multi-outcome model that predicts both an individual’s sex and ADHD diagnosis using functional brain imaging and socio-demographic data. By analyzing brain activity patterns, emotions, and parenting influences, we aimed to uncover sex-specific differences in ADHD presentation. Our findings contribute to the broader goal of improving early diagnosis and personalized treatment strategies for individuals affected by ADHD.
+
+
+## Research Question
+
+What brain activity patterns are associated with ADHD; are they different between males and females, and, if so, how?
+
+
+## Data 
+
+The dataset  comes from the Healthy Brain Network (HBN) and the Reproducible Brain Charts (RBC) project. It includes diagnostic data, socio-demographic details, emotional and parenting assessments, and functional MRI data from over 1,200 participants. The functional MRI data captures brain activity patterns through connectome matrices, which represent correlations between different brain regions over time.
+
+Data Source: [Healthy Brain Network, Reproducible Brain Charts](https://www.kaggle.com/competitions/widsdatathon2025/data)
