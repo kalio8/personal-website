@@ -33,7 +33,9 @@ I'm a current fourth year student at the University of California, Los Angeles (
 
 ## Education
 
-*University of California, Los Angeles* <br/> BS in Statistics and Data Science \| Expected June 2025
+University of California, Los Angeles <br/> *BS in Statistics and Data Science* \| Expected June 2025
+
+<img src="images/ucla.jpg" width="200px" alt="Visualization 1">
 
 ## Experience
 

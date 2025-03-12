@@ -1,0 +1,1348 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0114.1153                               -->
+<workbook original-version='18.1' source-build='2024.3.3 (20243.25.0114.1153)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='alltires' inline='true' name='federated.1f1lnok0nawnqt1dbwt9v0uo3by1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='alltires' name='textscan.0d57wki07d3oh00zyme3s05zjbyj'>
+            <connection class='textscan' directory='C:/Users/kalil/OneDrive/School Work/UCLA/24-25 Senior Year/Winter 2025/Stats 140/Racing_Project' filename='alltires.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0d57wki07d3oh00zyme3s05zjbyj' name='alltires.csv' table='[alltires#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='NUMBER' ordinal='0' />
+            <column datatype='integer' name='DRIVER_NUMBER' ordinal='1' />
+            <column datatype='integer' name='LAP_NUMBER' ordinal='2' />
+            <column datatype='real' name='LAP_TIME' ordinal='3' />
+            <column datatype='real' name='S1' ordinal='4' />
+            <column datatype='real' name='S2' ordinal='5' />
+            <column datatype='real' name='S3' ordinal='6' />
+            <column datatype='real' name='KPH' ordinal='7' />
+            <column datatype='real' name='ELAPSED' ordinal='8' />
+            <column datatype='string' name='CLASS' ordinal='9' />
+            <column datatype='string' name='TEAM' ordinal='10' />
+            <column datatype='real' name='AVG_TRACK_TEMP' ordinal='11' />
+            <column datatype='integer' name='YEAR' ordinal='12' />
+            <column datatype='string' name='TIRE_TYPE' ordinal='13' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NUMBER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NUMBER]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>NUMBER</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DRIVER_NUMBER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DRIVER_NUMBER]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>DRIVER_NUMBER</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAP_NUMBER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LAP_NUMBER]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>LAP_NUMBER</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAP_TIME</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LAP_TIME]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>LAP_TIME</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S1]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>S1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S2]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>S2</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S3]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>S3</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KPH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[KPH]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>KPH</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ELAPSED</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ELAPSED]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>ELAPSED</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CLASS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CLASS]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>CLASS</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TEAM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TEAM]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>TEAM</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AVG_TRACK_TEMP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AVG_TRACK_TEMP]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>AVG_TRACK_TEMP</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YEAR]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>YEAR</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIRE_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TIRE_TYPE]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>TIRE_TYPE</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Avg Track Temp' datatype='real' name='[AVG_TRACK_TEMP]' role='measure' type='quantitative' />
+      <column caption='Class' datatype='string' name='[CLASS]' role='dimension' type='nominal' />
+      <column caption='Driver Number' datatype='integer' name='[DRIVER_NUMBER]' role='dimension' type='ordinal' />
+      <column caption='Elapsed' datatype='real' name='[ELAPSED]' role='measure' type='quantitative' />
+      <column caption='Lap Number' datatype='integer' name='[LAP_NUMBER]' role='dimension' type='ordinal' />
+      <column caption='Lap Time' datatype='real' name='[LAP_TIME]' role='measure' type='quantitative' />
+      <column caption='Number' datatype='integer' name='[NUMBER]' role='dimension' type='ordinal' />
+      <column caption='Team' datatype='string' name='[TEAM]' role='dimension' type='nominal' />
+      <column caption='Tire Type' datatype='string' name='[TIRE_TYPE]' role='dimension' type='nominal' />
+      <column caption='Year' datatype='integer' name='[YEAR]' role='dimension' type='quantitative' />
+      <column caption='alltires.csv' datatype='table' name='[__tableau_internal_object_id__].[alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='alltires.csv' id='alltires.csv_4DC1A1D14D694CF4BA3ACF8FADBE96DE'>
+            <properties context=''>
+              <relation connection='textscan.0d57wki07d3oh00zyme3s05zjbyj' name='alltires.csv' table='[alltires#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='NUMBER' ordinal='0' />
+                  <column datatype='integer' name='DRIVER_NUMBER' ordinal='1' />
+                  <column datatype='integer' name='LAP_NUMBER' ordinal='2' />
+                  <column datatype='real' name='LAP_TIME' ordinal='3' />
+                  <column datatype='real' name='S1' ordinal='4' />
+                  <column datatype='real' name='S2' ordinal='5' />
+                  <column datatype='real' name='S3' ordinal='6' />
+                  <column datatype='real' name='KPH' ordinal='7' />
+                  <column datatype='real' name='ELAPSED' ordinal='8' />
+                  <column datatype='string' name='CLASS' ordinal='9' />
+                  <column datatype='string' name='TEAM' ordinal='10' />
+                  <column datatype='real' name='AVG_TRACK_TEMP' ordinal='11' />
+                  <column datatype='integer' name='YEAR' ordinal='12' />
+                  <column datatype='string' name='TIRE_TYPE' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='alltires (2)' inline='true' name='federated.0ztg3dk0toc2io1greuhj1pyfrsq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='alltires' name='textscan.07jjhmr1j4ollz13on6sg1mqqxka'>
+            <connection class='textscan' directory='C:/Users/kalil/OneDrive/School Work/UCLA/24-25 Senior Year/Winter 2025/Stats 140/Racing_Project' filename='alltires.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.07jjhmr1j4ollz13on6sg1mqqxka' name='alltires.csv' table='[alltires#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='NUMBER' ordinal='0' />
+            <column datatype='integer' name='DRIVER_NUMBER' ordinal='1' />
+            <column datatype='integer' name='LAP_NUMBER' ordinal='2' />
+            <column datatype='real' name='LAP_TIME' ordinal='3' />
+            <column datatype='real' name='S1' ordinal='4' />
+            <column datatype='real' name='S2' ordinal='5' />
+            <column datatype='real' name='S3' ordinal='6' />
+            <column datatype='real' name='KPH' ordinal='7' />
+            <column datatype='real' name='ELAPSED' ordinal='8' />
+            <column datatype='string' name='CLASS' ordinal='9' />
+            <column datatype='string' name='TEAM' ordinal='10' />
+            <column datatype='real' name='AVG_TRACK_TEMP' ordinal='11' />
+            <column datatype='integer' name='YEAR' ordinal='12' />
+            <column datatype='string' name='TIRE_TYPE' ordinal='13' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NUMBER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NUMBER]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>NUMBER</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_103900778B9B4422A34DECB385003BF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DRIVER_NUMBER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DRIVER_NUMBER]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>DRIVER_NUMBER</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_103900778B9B4422A34DECB385003BF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAP_NUMBER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LAP_NUMBER]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>LAP_NUMBER</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_103900778B9B4422A34DECB385003BF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAP_TIME</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LAP_TIME]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>LAP_TIME</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_103900778B9B4422A34DECB385003BF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S1]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>S1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_103900778B9B4422A34DECB385003BF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S2]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>S2</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_103900778B9B4422A34DECB385003BF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S3]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>S3</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_103900778B9B4422A34DECB385003BF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KPH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[KPH]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>KPH</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_103900778B9B4422A34DECB385003BF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ELAPSED</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ELAPSED]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>ELAPSED</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_103900778B9B4422A34DECB385003BF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CLASS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CLASS]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>CLASS</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[alltires.csv_103900778B9B4422A34DECB385003BF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TEAM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TEAM]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>TEAM</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[alltires.csv_103900778B9B4422A34DECB385003BF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AVG_TRACK_TEMP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AVG_TRACK_TEMP]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>AVG_TRACK_TEMP</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_103900778B9B4422A34DECB385003BF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YEAR]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>YEAR</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[alltires.csv_103900778B9B4422A34DECB385003BF5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIRE_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TIRE_TYPE]</local-name>
+            <parent-name>[alltires.csv]</parent-name>
+            <remote-alias>TIRE_TYPE</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[alltires.csv_103900778B9B4422A34DECB385003BF5]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Avg Track Temp' datatype='real' name='[AVG_TRACK_TEMP]' role='measure' type='quantitative' />
+      <column caption='Class' datatype='string' name='[CLASS]' role='dimension' type='nominal' />
+      <column caption='Driver Number' datatype='integer' name='[DRIVER_NUMBER]' role='dimension' type='ordinal' />
+      <column caption='Elapsed' datatype='real' name='[ELAPSED]' role='measure' type='quantitative' />
+      <column caption='Lap Number' datatype='integer' name='[LAP_NUMBER]' role='dimension' type='ordinal' />
+      <column caption='Lap Time' datatype='real' name='[LAP_TIME]' role='measure' type='quantitative' />
+      <column caption='Number' datatype='integer' name='[NUMBER]' role='dimension' type='ordinal' />
+      <column datatype='real' name='[S1]' role='measure' type='quantitative' />
+      <column datatype='real' name='[S2]' role='measure' type='quantitative' />
+      <column datatype='real' name='[S3]' role='measure' type='quantitative' />
+      <column caption='Team' datatype='string' name='[TEAM]' role='dimension' type='nominal' />
+      <column caption='Tire Type' datatype='string' name='[TIRE_TYPE]' role='dimension' type='nominal' />
+      <column caption='Year' datatype='integer' name='[YEAR]' role='dimension' type='quantitative' />
+      <column caption='alltires.csv' datatype='table' name='[__tableau_internal_object_id__].[alltires.csv_103900778B9B4422A34DECB385003BF5]' role='measure' type='quantitative' />
+      <column-instance column='[LAP_NUMBER]' derivation='None' name='[none:LAP_NUMBER:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[TIRE_TYPE]' derivation='None' name='[none:TIRE_TYPE:nk]' pivot='key' type='nominal' />
+      <column-instance column='[AVG_TRACK_TEMP]' derivation='Sum' name='[sum:AVG_TRACK_TEMP:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[LAP_TIME]' derivation='Sum' name='[sum:LAP_TIME:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[S1]' derivation='Sum' name='[sum:S1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[S2]' derivation='Sum' name='[sum:S2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[S3]' derivation='Sum' name='[sum:S3:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:TIRE_TYPE:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hankook&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Pirelli&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:AVG_TRACK_TEMP:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:Calculation_1110981789127794688:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:S3:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:S2:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:S1:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0ztg3dk0toc2io1greuhj1pyfrsq]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:LAP_TIME:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:LAP_NUMBER:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>29</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>21</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>25</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>13</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>33</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>30</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>26</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>19</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>22</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>17</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>27</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>14</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>34</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>15</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>18</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>20</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>11</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>31</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>28</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>23</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>16</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>12</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>32</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>24</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='alltires.csv' id='alltires.csv_103900778B9B4422A34DECB385003BF5'>
+            <properties context=''>
+              <relation connection='textscan.07jjhmr1j4ollz13on6sg1mqqxka' name='alltires.csv' table='[alltires#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='NUMBER' ordinal='0' />
+                  <column datatype='integer' name='DRIVER_NUMBER' ordinal='1' />
+                  <column datatype='integer' name='LAP_NUMBER' ordinal='2' />
+                  <column datatype='real' name='LAP_TIME' ordinal='3' />
+                  <column datatype='real' name='S1' ordinal='4' />
+                  <column datatype='real' name='S2' ordinal='5' />
+                  <column datatype='real' name='S3' ordinal='6' />
+                  <column datatype='real' name='KPH' ordinal='7' />
+                  <column datatype='real' name='ELAPSED' ordinal='8' />
+                  <column datatype='string' name='CLASS' ordinal='9' />
+                  <column datatype='string' name='TEAM' ordinal='10' />
+                  <column datatype='real' name='AVG_TRACK_TEMP' ordinal='11' />
+                  <column datatype='integer' name='YEAR' ordinal='12' />
+                  <column datatype='string' name='TIRE_TYPE' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='alltires (2)' name='federated.0ztg3dk0toc2io1greuhj1pyfrsq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ztg3dk0toc2io1greuhj1pyfrsq'>
+            <column datatype='real' name='[S1]' role='measure' type='quantitative' />
+            <column datatype='real' name='[S2]' role='measure' type='quantitative' />
+            <column datatype='real' name='[S3]' role='measure' type='quantitative' />
+            <column caption='Tire Type' datatype='string' name='[TIRE_TYPE]' role='dimension' type='nominal' />
+            <column-instance column='[TIRE_TYPE]' derivation='None' name='[none:TIRE_TYPE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[S1]' derivation='Sum' name='[sum:S1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[S2]' derivation='Sum' name='[sum:S2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[S3]' derivation='Sum' name='[sum:S3:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:S1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:S2:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:S3:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:TIRE_TYPE:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:S3:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:TIRE_TYPE:nk]' value='182' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:S1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:S2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:S3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:S1:qk] + ([federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:S2:qk] + [federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:S3:qk]))</rows>
+        <cols>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:TIRE_TYPE:nk]</cols>
+      </table>
+      <simple-id uuid='{B3F71602-12F2-4A5E-8E09-43B3852B952F}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='alltires (2)' name='federated.0ztg3dk0toc2io1greuhj1pyfrsq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ztg3dk0toc2io1greuhj1pyfrsq'>
+            <column caption='Lap Number' datatype='integer' name='[LAP_NUMBER]' role='dimension' type='ordinal' />
+            <column caption='Lap Time' datatype='real' name='[LAP_TIME]' role='measure' type='quantitative' />
+            <column caption='Tire Type' datatype='string' name='[TIRE_TYPE]' role='dimension' type='nominal' />
+            <column caption='Year' datatype='integer' name='[YEAR]' role='dimension' type='quantitative' />
+            <column-instance column='[LAP_NUMBER]' derivation='None' name='[none:LAP_NUMBER:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[TIRE_TYPE]' derivation='None' name='[none:TIRE_TYPE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[YEAR]' derivation='None' name='[none:YEAR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LAP_TIME]' derivation='Sum' name='[sum:LAP_TIME:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:TIRE_TYPE:nk]'>
+            <groupfilter function='member' level='[none:TIRE_TYPE:nk]' member='&quot;Hankook&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:YEAR:qk]' included-values='in-range'>
+            <min>2023</min>
+            <max>2023</max>
+          </filter>
+          <slices>
+            <column>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:TIRE_TYPE:nk]</column>
+            <column>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:YEAR:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#86bcb6' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:TIRE_TYPE:nk] / [federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:LAP_NUMBER:ok])</rows>
+        <cols>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:LAP_TIME:qk]</cols>
+      </table>
+      <simple-id uuid='{DCA6CE3F-59E2-4532-9CEB-E1E17EBED8D3}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='alltires (2)' name='federated.0ztg3dk0toc2io1greuhj1pyfrsq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ztg3dk0toc2io1greuhj1pyfrsq'>
+            <column caption='Lap Number' datatype='integer' name='[LAP_NUMBER]' role='dimension' type='ordinal' />
+            <column caption='Lap Time' datatype='real' name='[LAP_TIME]' role='measure' type='quantitative' />
+            <column caption='Tire Type' datatype='string' name='[TIRE_TYPE]' role='dimension' type='nominal' />
+            <column-instance column='[LAP_NUMBER]' derivation='None' name='[none:LAP_NUMBER:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[TIRE_TYPE]' derivation='None' name='[none:TIRE_TYPE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[LAP_TIME]' derivation='Sum' name='[sum:LAP_TIME:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:TIRE_TYPE:nk]'>
+            <groupfilter function='member' level='[none:TIRE_TYPE:nk]' member='&quot;Pirelli&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:TIRE_TYPE:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:TIRE_TYPE:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f17b79' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:LAP_NUMBER:ok]</rows>
+        <cols>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:LAP_TIME:qk]</cols>
+      </table>
+      <simple-id uuid='{60183E4D-1EB4-49A8-9026-41937B07CBEC}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='75'>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[:Measure Names]</field>
+            <field>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:TIRE_TYPE:nk]</field>
+            <field>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:YEAR:qk]</field>
+            <field>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:LAP_TIME:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8C12F03F-91EA-4FAC-9625-65EA6BE2AD38}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='horizontal'>
+              <node-reference>
+                <axis>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[sum:LAP_TIME:qk]</axis>
+              </node-reference>
+              <page-reference />
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:DRIVER_NUMBER:ok]</field>
+            <field>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:LAP_NUMBER:ok]</field>
+            <field>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:TIRE_TYPE:nk]</field>
+            <field>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:YEAR:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{77B2408F-AC83-4798-8B4B-81EA0C90CCD0}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:LAP_NUMBER:ok]</field>
+            <field>[federated.0ztg3dk0toc2io1greuhj1pyfrsq].[none:TIRE_TYPE:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{69FE8EF0-6D15-44BD-8E7D-1ED302E3AC60}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAAVAUlEQVR4nO3dWXBb133H8e+5FyDADeC+ExRFkdQuaqU2apcd25GbNG3aNG3aPuQp02n6
+      lOm00z406cRNM2nrdJqm405m2pmmaVI3sRMnXmRLsiRqo0xrMUmJokiKpCiuAEiAWO69fSBN
+      S4kskZkLgvb9f56ES4j8D4Afzl3O/x5lWZaFEA6klFJauosQIp0kAMLRll0AEokEMzMz6S5D
+      OMSyC0AymSQej6e7jGXh7u0O7gblyyCVXOkuQMx6+7+f51s/eGv+8cHPfZmdeXfRVpVR5vc+
+      5n8b/OyFr/PCz9oA8Bav5Lmvf42qvIzUFfwxoZbbWaBoNEoikcDn86W7lCVlmiZmsJ8vP/c9
+      vvZXf06u10X7yR+TteYpMoYuMu4poefSaXY/+wWCHW/x+rkOth86xo61ATRlYZomJ//rm3SX
+      HOOPDjXQdeF1gvlN7GwspvXVn1CyaT+dZ95gJjHFeCKfz3zmGXL1OMdf+iE3xjWOffpTVBXm
+      oNL9QiwhOQu0jGiahkvXUUqh6zqaptF56S36JuIMdrXxnX/+V2K+auKDl/jO94/TUB/g+999
+      noFgHFBomo6mFJqmoes6hdkW//PiLzCiI7x84jo+d4LXX/kJlr+KWM9J/uOVi1x8+QXeumVQ
+      6Q3y/As/wjCX1XfhkpAAfCRYbP3E5/i9Y4eZ6rtKMjOP8FSUDDPG0ET4of+jZO0+fHcvcL79
+      CnkrN5Dj1ikobeCJJ4/wud89xkj/IO9evkphgZeE5mV0qJek4bwAyDHAR4JOcVE+Sinyy6vJ
+      zphm89ZmVtWupCz/Q44P9CyebGnk+e/8iC9+5a/RFMRmQgzeucM7r7xBYeVTVGdVc8tXzvbt
+      NVSsmsClOWkHaJaMAMuJy0ND3Qr0uQ9iaXU9BVku/CVVFPsyAahYvZeDjS6+9Y3nePHNyyj9
+      g++wvNIA5flZ84/X79lHjsfHxtoSAKZHb/Htv3+OG6ziD57awYHf+mPMrtd57u++xbt94yjn
+      ff7lIPjjKjLayw++/59M5O/iy58/RGJqjG889y/86d/8JTnpLm6ZUEqpBwIQDoeJRCLprIlE
+      IoFpmng8nrTW8VFnWSaJRBKXy402N6Ikk0lcLtnrfV9ZWZmSEUA4lpwGFY5n+3h4p+sdOvrH
+      wEyQ9JbyZEsT75x6hcFIBplujUBjE7WlSVpbJ9izt4E7V88wlFHP9oYSu0sR4rFsD0Bl/Saq
+      GhRYJj//6SskrA1Ek5kcOHSAbPfsvqiRHMY0TCJj/VwZcfPkQfnwi/RIyRHRtUun6B8OUVK/
+      gQzLwKUMzp46jmko1m9rpjTXYqD7KuOTWbQcfQKNuakApkkymSSZTJJIJFJRmhAPSEkA6tdv
+      p7R8iHOXu4g2BNhx4AiWZREP3eV421WOtqygrKYev2eUkYkpCrLy56cA6LqOZVlytiJFzHAY
+      yzDSXUbqaRr6Ak6k2P4pGx8ZJqegmILSSnzWVYKRKKMT45SXlxMJh3B7M1GA7vKwqXkXb7x2
+      gqL8oxRmuQFQc1djlBOvyiyBe3/7dRK3b6e7jJRzlZRQ8U//8Pjn2f2H45EJzl1/DwOdsrVb
+      KfG66Jse5/TJTlyZeexo2oBSEUrL/GjubFr2bKbj9iAFa2scNRNRLA+2B6B8xRrKV6x5YNuK
+      xg2saLx/i5+GRj8AXn85TX67qxBiYeQ6gHA0CYBwNAmAcDQJgHA0CYBwNAmAcDQJgHA0CYBw
+      NAmAcDQJgHA0CYBwNAmAcDTbA2AkYgwN3KGvf4BILAmAmYwzNNDPvfEQFmBZCabCs3c9tpIz
+      TIaidpchxILYPht0uP8W4zENNzFeu3qTT35iD+1nT2LmVRIbvc5kfTN1ZTEut43Tsn81V1pP
+      4K3bTd4ibwKRHBsn1tVpd/nLkqe+HldRUbrL+Fiyfzp07WrKAdOI0d39FolIkFEzhyPrV5MI
+      5XHq6i3qyioBGOu9xoS3ln3luYv+O/Hum4z94/M2V788Ff7JlyQAKZKCvkOL9rPH6Rkcp2bT
+      XkjE0d0uNKXweLwkZmYwsOjrbOPOvVyO/cYnUcz2BBuGMd8T/LhFMpJJB7T1zUkmDdsWDVlm
+      t4FKGQtrQa+Z7QFQSmPTrsOsng5y+sRZpoq3YZkWFmAkk+huNxqKQONmAoVBrt64w851ATRN
+      Q9M0kskklmWRkfHoxR2SLt3u0pctl0t/7OuxUE5pNVWoBb1mth8Ed3dcZXIqiqUgkTDIyPHj
+      iYzSPxriZud1SisCc62PisDa7TD0LrdGpnHG95JYbmwfASoqSrl+vZ2Y5WbbocP4XBns3t/C
+      lXev4i5YxYa6UpQZpb7Bg9JcNB84xO2BIJBtdylCPJbtAcj0FbO1ufiBbbonh6btOz/YoGVS
+      Vj57u2/lyqK2Jgsh0kEuhAlHkwAIR5MACEeTAAhHkwAIR5MACEeTAAhHkwAIR5MACEeTAAhH
+      kwAIR5MACEezfTLcxMANLl6/jVIWZJVyePdGrp07Tv+khWdumdSVZSaXLgXZvmMlo91t3Daq
+      2SbLpIo0sD0AWk4JR47Wo7A48dJPCVnrCEcVLYcOkXPfMqkz0Tix0DCt3VGefkI+/CI9bA+A
+      3+/Hsgx6O9qJ+MvwWUmM2AytJ4/jcmexfvNm8jMtRgd7OBG5zY69h9CYbdV7vy3y/dbIRzEM
+      0+7Sly3TMB/7eiyYY1oiWdBrZnsALMvg4ps/J5ZXx6HdDShNY++TT2NZFtMjvbzddpUje6rJ
+      yvWT5Q4RjSUh1wPMtusppebbIx9Fc0hrHzD/mtjzy+z5NR8FC3nNbA9AX9tbmIFm9tQVopTC
+      SMSYCE2Tn58PCnSXjgKycgvYvXMDP3/tFAVPHCU3Q59/oxfyhivNOe+k0mwMgEMSoEhTAMan
+      kwSD7/JmHyiVzY6WJu713+RK+xToXjZv2YJSUfILstE8PvbvbORaRx/bN9Y65K0Ry4ntAdi8
+      78lf2ba2aQdrH9jiZf2GfACyi2rZIbe8EWki1wGEo0kAhKNJAISjSQCEo0kAhKNJAISjSQCE
+      o0kAhKNJAISjSQCEo0kAhKNJAISj2R4Ay7KIRqYIBkPE59bxskyDcCjIdDQ2t0yqQXxuCVXL
+      TDITS9hdhhALYvts0Lu3rnHzbhivWzE0HufpJ/fQeeEUo0YmifA4q5r2Ul0Y4Vzr7DKpXZdO
+      Ei/ZzIaafLtLEeKxbA9AQVU9e+s8KCyO/+RlpqNB7kQyOHJgB4nJQU6/1011YTkAoaEb9CeK
+      OSwffpEmtgfA48kgGY/Q3nqajJq1eOIxXJ4MdKXQMrOIRyOYWPR1XmZoJJenjj0ty6Q+hiyT
+      unhpWybVmAlx/PUT1GzazZaqIhJT97Cs2SZl0zDQ3C4UikBjE6W5Y9zsG2FzfZksk/oIskzq
+      4qVtmdT3zp9hRfNRGquLUArcWX708Agj4Rh9PTcoLKmcXya1ftMOwt0XGQjG7C5DiAX59QIw
+      fpPP/9lXH/qjrMIi+q+c5fjx47z55jlmdA97Wpq51d7KOCU0NVSgtGxqVhSjdA97DrYQHhmR
+      dYJFWjx+F8iyeON/X6C1Y/iDbbEgg6MPH0pXrtvOynW/tDG7gJ1799+3IYdATQ4AusfP6lX+
+      RZYthD0WdAzgc8eZ1Mv4w2d3zQ4ZwV7O/Pup1FYmxBJ4fACUYuPB32ZYb6OuYQ2ZLgXBHDav
+      HliC8oRIrQWMABbRSIT1W3bg1aGr7SQXukb44hd+J/XVCZFijz8ItuCl732bi7dGmeq7wFe/
+      /SOyrVG++d0fLEF5QqTWgs4CjU5FKCn08+ZLL7Lxic9y7Mg+7gzcTnFpQqTeggLQ0ryVH/7b
+      N/i/d6b57NPN3Ll9k9Li8lTXJkTKLeggeMtTv0/J2l7c/lLKfS5CtVv5iy/tW4LyhEitBZ0G
+      1fQMAivr5x/7iirwpawkIZaONMQIR5MACEeTAAhHkwAIR7O9HwAgMRNmaDRKVVUJGjAx3Et3
+      /wgAZTUNVBZmMDoWp7jYhxkPMzRhUFmal4pShHgk20eA4FA3Z1ov0H79FrPrOFrc6OqirLqO
+      +vp6ivxZmGaQjusDWJbB+ZMnsTyZdpchxILYHgB/eR379+7An+me3WDFCE/GmZmZIm4oMtwf
+      DDqDnW2oio1U5XnsLkOIBUnJLtCD3KxtWkc4GqGn7ya9xXVsXpVBX2cbd4ZzOPaprYD0BD+K
+      9AQvXtp6gn+1EI2yqhrKlcKsKuIX525grqol0LiFxqoZLrTf5MC2BukJfgTpCV68tPUET4fG
+      uTMwxOTkGIMDA0xPT3Hx/Dlu9/Vz5co1CsvK5/9oSV0TRYnbXO0dk5ZIkRa2ByAZjzE9Y9LY
+      UEN0ehrlyWHDutUkY1EKAmvZtroGTc9nw6YAoFjfvJ+yHOd8m4vlxfZdIH9ROf6iX5op6s5j
+      Vf39pzkzyMubHZ6U7qG4SA6CRXrIhTDhaBIA4WgSAOFoEgDhaBIA4WgSAOFoEgDhaBIA4WgS
+      AOFoEgDhaBIA4WgSAOFo9q8TbBqMDNzi0rs35loiYXpiiLdPvkVr2zViSRPTDNN9c3bBjZmJ
+      O3TcHrW7DCEWxPYAhO71MzAaYmxsAhOwklHOtrazZttuKrMiXH6vD8uMMDgwjpWIcOrsFSoq
+      CuwuQ4gFsb8nuGwFTetW4Z3r2EpEQuAroiArg4rqlQTHh+ebXzreuUBg4058GbInJtIj5S2R
+      pmmilEIBmqZhGiYWFn2dbQwV5HJ0fc7886Qn+OGkJ3jxlk1PcIY3E2NmhqRpkYhM4cnKRkMR
+      aNzClrVeTpxt48mDzejSE/yhpCd48RbaE2x7AO72XKejp5+bPcMY5hRNO1qozYfX3jiOGY+x
+      efdBIARAdvEKNlYMc/ryLVq2rMQZb41YTmwPQGnNaooDjbTMrYqqaRp5TbupM01QCqVpYHnZ
+      u68EUFQ2NlPhjFFZLEO2B0BpGr+6c6JQ+n1b7xuGlVI4ZFQWy5CcfhGOJgEQjiYBEI4mARCO
+      JgEQjiYBEI4mARCOJgEQjiYBEI4mARCOJgEQjrYEa4TB1MQ97o7NzgDNK66g0OciFEri92dh
+      JqJMTJsU5mUvRSlCPGAJRgCL9662EbdcZGRkoOsapjHBu+/0AhbtZ08waU+vhxCLlvoRwIoT
+      iejUFBeQ4/GQ6fVgGkEARm69y1RuPU0l8u0v0mMJAqBTHSij90YH08EghSs3sDbA3DKpuRz7
+      1CdRSEvko0hL5OItm5ZINBcr12xgJWBMj/Hq+RusCdQSaNzMiuIw7R197Nm4QpZJfQRpiVy8
+      tC2T+ssS0TCX2toYnwzSc7OL3IKiudZHRdWabXjGrnPjbliWSRVpkfIAuDNzWL2yit7uLpK5
+      AXZtXIWm+WlcU4FSOlv3HcSTjKa6DCEeaglOgyqy80rYvLXkvk1eSkq8s//UMwlUZaa+DCEe
+      Qi6ECUeTAAhHkwAIR5MACEeTAAhHkwAIR1uSAFiWSWwmSiyexJp7/P5UBss0SDhoWoNYXlIf
+      AMuk4+LbnGq9yJtvvEr/yBSmMcLZ012Axa13TnG1bzLlZQjxMCkPgDETpC+sc2D/XvY3b+TG
+      ze75n4WHb9EdyWPTysJUlyHEQ6X8SnAiNoPL68GlFHpmNvFIHyYWfZ2XuTuayxPPPCUHIiJt
+      Uv7Z0zQdywILME0DzeVCoQg0NrE+4KN3cDzVJQjxoVI/GS7bhx4eZWwqzkBvNwXF5fOzQVdv
+      bma86wJDIWkJE+mR8gAo3cuu3VvpunyG4UQeTY1VKC2LqkAhyuVlz/5dTNwdlunQIi2WpCne
+      6ytmd8uB+7bkUlubC4A7s4C1DbJMqkgPOf4Ujqas+5pEw+EwkUgknfWQSCQwTROPx/PI51nx
+      OObU1BJVlV5aTg7KppZIMxTCSiZt+V3Lmq6j+/2PfEpZWZl6IADLQTQaJZFI4PP50l2K+JhT
+      SinZBRKOJgEQjiYBEI4mARCOZvt1gPj0BO3tV5lO6qzZ2ERpXhb3eju40j2IAgKNTdSVexgY
+      nKGqqhAjOs7tUZO66iK7SxEPYZhmuktYMrr2+O932wMwORGkoamZbG2GH//sOM/+5jP09A2w
+      bfcB/N7Zu7kZyWF6usepLM/l1Ftn2HDgabvLEB/i22dPMRgOpbuMlCvIzOIr+w8/9nm27wKV
+      VK3Al+liKjSJN8eHZs4wcW+SGx3XuNU/jHnfSdeeaxfJb9hOYabsiYn0sH0EsCyT9tbj3BmZ
+      oqh2E5rysOfwQWKJJPf6bnBmPMyudTn0dbbR78/h2U/vBBZ/c1zx61lml31SJo03x1U07TpC
+      Exatr/yUe401FPnyyNU0CrJ1Xj1/E5NcAo1b2LgKTp+7wtG9mxZ9c1zx65Gb4z7I9gB0trcS
+      IQuXMpnUcskxIly82IYnO4/piXtUVK+b3+/yV66mbvgklzoH2La6Eme8NWI5sT0Aq9ZtJhgM
+      Y6LRuNaPx62zZet2gqEpXLV1+HOzgSTbduQDirqmPUxHE4v+O12j93jx2hW7y1+Wjq1Zx9qS
+      snSX8bFkewBcbi+FRd4Htrk9mRQV338DXBeZcw+V5iIne/FlxJMG49H0TtxbKnG5a0bKyOkX
+      4WgSAOFoEgDhaBIA4WgSAOFoEgDhaBIA4WgSAOFoEgDhaBIA4WgSAOFotgfANBKEJieYmJic
+      n8NimUlCkxOEp2fmVogxiM3MToCzjATRGZn7L9LD9slwQz2dDEzG0K04g5MWzxxp5vr5U4yT
+      QyI0yspNewgURjl/bpyW/avpvHSSZNkW1gdk/r9YerYHoKJuHZVKgZVk+OVXiUeDDEQ9HDmw
+      jcTkIKff6yZQWAFAaLCLO0YphwP5dpchxIKkoCPM4p0zb9AzOEFt016Ix3B5MtCVQsvMIh6N
+      YsytEDM4ksvTzz6NYvEtkUnDAfe3nJM07GsRlZbIB9keAKU0Nu06TH1whLdPtRFo2fLBCjFJ
+      A83tQptbIabMN8aN2/fY0lC+6JZIl74kd3ZfFly6y7YWUWmJfJDtB8G93V1E4gbe7Bw0I46W
+      5ccVHuFeOEZfTxdFJZXzK8Ss2riD6Z5L3JmcsbsMIRbE9q/Rgrxs2s+fJm65WLf3IP4MD3v2
+      7aStrRV3QTVNjRUoK8KKWhdK97D74D5u9o1i5VVJT7BYcrYHILewkt0tlQ9sc2fl07x3/wcb
+      VDbVgWwA9AwfjavkVugiPeRCmHA0CYBwNAmAcDQJgHC0/wdnO+5p47MnYgAAAABJRU5ErkJg
+      gg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      4lbz/wGcJdodBGe94QAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      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
+      q9EdQHOr+f9lAoSPw1bKGgAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
