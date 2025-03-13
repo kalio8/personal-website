@@ -27,3 +27,7 @@ What brain activity patterns are associated with ADHD; are they different betwee
 The dataset  comes from the Healthy Brain Network (HBN) and the Reproducible Brain Charts (RBC) project. It includes diagnostic data, socio-demographic details, emotional and parenting assessments, and functional MRI data from over 1,200 participants. The functional MRI data captures brain activity patterns through connectome matrices, which represent correlations between different brain regions over time.
 
 Data Source: [Healthy Brain Network, Reproducible Brain Charts](https://www.kaggle.com/competitions/widsdatathon2025/data)
+
+## Method
+
+Neural Network Predictive Model

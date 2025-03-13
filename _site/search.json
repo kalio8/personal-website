@@ -28,6 +28,13 @@
     "text": "Data\nThe dataset comes from the Healthy Brain Network (HBN) and the Reproducible Brain Charts (RBC) project. It includes diagnostic data, socio-demographic details, emotional and parenting assessments, and functional MRI data from over 1,200 participants. The functional MRI data captures brain activity patterns through connectome matrices, which represent correlations between different brain regions over time.\nData Source: Healthy Brain Network, Reproducible Brain Charts"
   },
   {
+    "objectID": "wids.html#method",
+    "href": "wids.html#method",
+    "title": "WiDS Datathon 2025",
+    "section": "Method",
+    "text": "Method\nNeural Network Predictive Model"
+  },
+  {
     "objectID": "my_projects.html",
     "href": "my_projects.html",
     "title": "My Projects",
@@ -123,7 +130,7 @@
     "href": "racing.html#visualizations",
     "title": "Pirelli vs. Hankook Tires",
     "section": "Visualizations",
-    "text": "Visualizations\n\n\n❮  ❯\n\n\n\n\nResults\nFor race durability, the results showed that Hankook tires performed better than Pirelli tires in terms of overall durability, with statistically significant findings. The analysis of different sectors (S1,S2, S3) on the track indicated that the tire type, track temperature, lap number, and interactions between lap number and tire type all played significant roles in tire performance. Sector one, with heavy acceleration and braking, was particularly sensitive to tire type, while sector two showed significant interactions between tire type and lap number. The variability in lap times for Hankook tires was higher than for Pirelli tires, which could be attributed to factors such as changing race conditions, but overall, Hankook tires demonstrated less degradation over the course of the race."
+    "text": "Visualizations"
   },
   {
     "objectID": "racing.html#results",
