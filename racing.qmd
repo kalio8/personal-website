@@ -40,6 +40,7 @@ We also calculated the variation inflation factor (VIF) to check for multicollin
 
 ## Visualizations
 
+
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 <div class="image-carousel">
   <button class="prev" onclick="changeImage(-1)">&#10094;</button>
