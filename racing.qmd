@@ -13,7 +13,7 @@ format:
 
 ## Introduction  
 
-In proffessional racing, tires play a critical role in racing performance. With the recent transition from Pirelli to Hankook tires in the Lamborghini Super Trofeo series, our team analyzed how this change impacted race performance. By examining lap time data and other fetaures from multiple racing seasons, we assessed the effects of tire degradation and overall performance differences between Pirelli and Hankook. Our analysis provids insights into how tire type influence speed and durability, particularly under varying weather and track conditions.
+In professional racing, tires play a critical role in racing performance. With the recent transition from Pirelli to Hankook tires in the Lamborghini Super Trofeo series, our team analyzed how this change impacted race performance. By examining lap time data and other features from multiple racing seasons, we assessed the effects of tire degradation and overall performance differences between Pirelli and Hankook. Our analysis provides insights into how tire type influence speed and durability, particularly under varying weather and track conditions.
 
 
 ## Research Question
@@ -38,13 +38,67 @@ The factorial design allowed us to look at the interaction effects between multi
 
 We also calculated the variation inflation factor (VIF) to check for multicollinearity among the predictor variables. This was an important step, as multicollinearity could distort the results and make it harder to determine which factors were truly affecting tire performance. By checking the VIF, we ensured that the factors in our model were not highly correlated with each other, allowing for a clearer understanding of how tire type, track conditions, and other variables contributed to the differences in race lap times.
 
+## Visualizations
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+<div class="image-carousel">
+  <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+  <img id="carousel-img" src="images/p_trends.jpg" width="550px" alt="Visualization 1">
+  <button class="next" onclick="changeImage(1)">&#10095;</button>
+</div>
+
+<script>
+  const images = [
+    "images/p_trends.jpg", 
+    "images/h23_trends.jpg", 
+    "images/h24_trends.jpg",
+    "images/team_trends.jpg",
+    "images/boxplot.jpg",
+  ];
+  
+  let currentIndex = 0;
+
+  function changeImage(direction) {
+    currentIndex += direction;
+
+    // Loop back to the start or end of the images array
+    if (currentIndex < 0) {
+      currentIndex = images.length - 1;
+    } else if (currentIndex >= images.length) {
+      currentIndex = 0;
+    }
+
+    // Add a timestamp to force image reload
+    const newImageSrc = images[currentIndex] + "?v=" + new Date().getTime();
+
+    // Update the image source with the timestamp query to bypass cache
+    const img = document.getElementById("carousel-img");
+    img.src = newImageSrc;
+  }
+</script>
+
+<style>
+  .image-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .prev, .next {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .prev:hover, .next:hover {
+    background-color: #0056b3;
+  }
+</style>
+
 ## Results
 
 For race durability, the results showed that Hankook tires performed better than Pirelli tires in terms of overall durability, with statistically significant findings. The analysis of different sectors (S1,S2, S3) on the track indicated that the tire type, track temperature, lap number, and interactions between lap number and tire type all played significant roles in tire performance. Sector one, with heavy acceleration and braking, was particularly sensitive to tire type, while sector two showed significant interactions between tire type and lap number. The variability in lap times for Hankook tires was higher than for Pirelli tires, which could be attributed to factors such as changing race conditions, but overall, Hankook tires demonstrated less degradation over the course of the race.
-
-
-## Visualizations
-
-<img src="images/hankook23.jpg" width="550px" alt="Visualization 1">
-
 
