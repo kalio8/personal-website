@@ -28,6 +28,6 @@ The dataset  comes from the Healthy Brain Network (HBN) and the Reproducible Bra
 
 Data Source: [Healthy Brain Network, Reproducible Brain Charts](https://www.kaggle.com/competitions/widsdatathon2025/data)
 
-## Method
+## Methods
 
 Neural Network Predictive Model

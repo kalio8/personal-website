@@ -1,6 +1,5 @@
-/* CSS styles */
-
+/* Justify text properly */
 .justified-text {
   text-align: justify;
-  text-align-last: justify;
+  text-justify: inter-word; /* Helps balance word spacing */
 }

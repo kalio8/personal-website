@@ -28,11 +28,11 @@
     "text": "Data\nThe dataset comes from the Healthy Brain Network (HBN) and the Reproducible Brain Charts (RBC) project. It includes diagnostic data, socio-demographic details, emotional and parenting assessments, and functional MRI data from over 1,200 participants. The functional MRI data captures brain activity patterns through connectome matrices, which represent correlations between different brain regions over time.\nData Source: Healthy Brain Network, Reproducible Brain Charts"
   },
   {
-    "objectID": "wids.html#method",
-    "href": "wids.html#method",
+    "objectID": "wids.html#methods",
+    "href": "wids.html#methods",
     "title": "WiDS Datathon 2025",
-    "section": "Method",
-    "text": "Method\nNeural Network Predictive Model"
+    "section": "Methods",
+    "text": "Methods\nNeural Network Predictive Model"
   },
   {
     "objectID": "my_projects.html",

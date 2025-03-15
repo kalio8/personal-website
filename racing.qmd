@@ -10,23 +10,19 @@ format:
 
 [GitHub Repo](https://github.com/kalio8/Pirelli-vs-Hankook-)
 
-
-## Introduction  
+## Introduction
 
 In professional racing, tires play a critical role in racing performance. With the recent transition from Pirelli to Hankook tires in the Lamborghini Super Trofeo series, our team analyzed how this change impacted race performance. By examining lap time data and other features from multiple racing seasons, we assessed the effects of tire degradation and overall performance differences between Pirelli and Hankook. Our analysis provides insights into how tire type influence speed and durability, particularly under varying weather and track conditions.
-
 
 ## Research Question
 
 How do Hankook and Pirelli tires compare in durability over the course of a race, especially in different weather and track temperatures?
 
-
-## Data 
+## Data
 
 The data comes from the Lamborghini Super Trofeo Series, specifically from the Laguna Seca Raceway Rounds. We examined Race 1 and 2 that use the Pirelli tires (2021-2022) and Race 1 and 2 that use the Hankook tires (2023-2024)
 
 Data Source: [IMSA Timing Results](https://imsa.results.alkamelcloud.com/)
-
 
 ## Methods
 
@@ -40,14 +36,12 @@ We also calculated the variation inflation factor (VIF) to check for multicollin
 
 ## Visualizations
 
-<img src="images/p_trends.jpg" width="500px" alt="Visualization 1">
-<img src="images/h23_trends.jpg" width="500px" alt="Visualization 2">
-<img src="images/h24_trends.jpg" width="500px" alt="Visualization 3">
-<img src="images/team_trends.jpg" width="500px" alt="Visualization 4">
-<img src="images/boxplot.jpg" width="500px" alt="Visualization 5">
-
+|                                   |                      |
+|-----------------------------------|----------------------|
+| ![](images/g11p.jpg){width="799"} | ![](images/g11h.jpg) |
+| ![](images/g3.jpg)                | ![](images/g4.jpg)   |
+| ![](images/g2.jpg)                | ![](images/g1.jpg)   |
 
 ## Results
 
 For race durability, the results showed that Hankook tires performed better than Pirelli tires in terms of overall durability, with statistically significant findings. The analysis of different sectors (S1,S2, S3) on the track indicated that the tire type, track temperature, lap number, and interactions between lap number and tire type all played significant roles in tire performance. Sector one, with heavy acceleration and braking, was particularly sensitive to tire type, while sector two showed significant interactions between tire type and lap number. The variability in lap times for Hankook tires was higher than for Pirelli tires, which could be attributed to factors such as changing race conditions, but overall, Hankook tires demonstrated less degradation over the course of the race.
-
