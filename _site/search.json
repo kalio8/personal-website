@@ -53,14 +53,14 @@
     "href": "index.html",
     "title": "Kali Olmsted",
     "section": "",
-    "text": "I’m a current fourth year student at the University of California, Los Angeles (UCLA) working to obtain my BS in Statistics and Data Science. Throughout my coursework and projects, I’ve strengthened my abilities in data cleaning, preprocessing, modeling, and interpretation to make informed decisions. I am passionate about using data to solve real-world problems and I’m eager to apply my skills in practical and impactful ways."
+    "text": "I’m a current fourth year student at the University of California, Los Angeles working to obtain my BS in Statistics and Data Science. Throughout my coursework and projects, I’ve strengthened my abilities in data cleaning, preprocessing, modeling, and interpretation to make informed decisions. I am passionate about using data to solve real-world problems and I’m eager to apply my skills in practical and impactful ways."
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Kali Olmsted",
     "section": "",
-    "text": "I’m a current fourth year student at the University of California, Los Angeles (UCLA) working to obtain my BS in Statistics and Data Science. Throughout my coursework and projects, I’ve strengthened my abilities in data cleaning, preprocessing, modeling, and interpretation to make informed decisions. I am passionate about using data to solve real-world problems and I’m eager to apply my skills in practical and impactful ways."
+    "text": "I’m a current fourth year student at the University of California, Los Angeles working to obtain my BS in Statistics and Data Science. Throughout my coursework and projects, I’ve strengthened my abilities in data cleaning, preprocessing, modeling, and interpretation to make informed decisions. I am passionate about using data to solve real-world problems and I’m eager to apply my skills in practical and impactful ways."
   },
   {
     "objectID": "index.html#education",
@@ -137,6 +137,13 @@
     "href": "racing.html#results",
     "title": "Pirelli vs. Hankook Tires",
     "section": "Results",
-    "text": "Results\nFor race durability, the results showed that Hankook tires performed better than Pirelli tires in terms of overall durability, with statistically significant findings. The analysis of different sectors (S1,S2, S3) on the track indicated that the tire type, track temperature, lap number, and interactions between lap number and tire type all played significant roles in tire performance. Sector one, with heavy acceleration and braking, was particularly sensitive to tire type, while sector two showed significant interactions between tire type and lap number. The variability in lap times for Hankook tires was higher than for Pirelli tires, which could be attributed to factors such as changing race conditions, but overall, Hankook tires demonstrated less degradation over the course of the race."
+    "text": "Results\nFor race durability, the results showed that Hankook tires performed better than Pirelli tires in terms of overall durability, with statistically significant findings. The analysis of different sectors (S1, S2, S3) on the track indicated that tire type, track temperature, lap number, and interactions between lap number and tire type all played significant roles in tire performance. Sector one, with heavy acceleration and braking, was particularly sensitive to tire type, while sector two showed significant interactions between tire type and lap number. The variability in lap times for Hankook tires was higher than for Pirelli tires, which could be attributed to factors such as changing race conditions, but overall, Hankook tires demonstrated less degradation over the course of the race. In our binary varaible Tire Type, Hankook = 0 and Pirelli = 1. The model’s coefficient for tire type, which was 0.07, indicates that switching from Pirelli to Hankook is associated with a decrease in lap time by approximately 0.07 seconds, suggesting that Pirelli tires may have contributed to slower lap times compared to Hankook tires in this analysis."
+  },
+  {
+    "objectID": "racing.html#limitations",
+    "href": "racing.html#limitations",
+    "title": "Pirelli vs. Hankook Tires",
+    "section": "Limitations",
+    "text": "Limitations\nSeveral limitations impacted the robustness of our findings in this project. First, the data available was limited to only two races per tire type, which restricted our ability to draw strong, reliable conclusions about the relationship between tire types and lap times. A larger dataset would have enhanced the confidence in our results. Additionally, the small sample size made our analysis more vulnerable to biases and variations caused by factors such as track temperature or course repaving. The driver also played a significant role, as the data included multiple drivers, each with unique performance characteristics, which could influence lap times independently of the tire type used. Also, the recent transition from Pirelli to Hankook from 2022 to 2023 may have introduced a learning curve for drivers, which could have affected performance during the early stages of adaptation.These factors introduced potential inconsistencies into our analysis."
   }
 ]

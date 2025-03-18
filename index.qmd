@@ -26,7 +26,7 @@ comments: false
 
 <div class="justified-text">
 
-I'm a current fourth year student at the University of California, Los Angeles (UCLA) working to obtain my BS in Statistics and Data Science. Throughout my coursework and projects, I've strengthened my abilities in data cleaning, preprocessing, modeling, and interpretation to make informed decisions. I am passionate about using data to solve real-world problems and I'm eager to apply my skills in practical and impactful ways.
+I'm a current fourth year student at the University of California, Los Angeles working to obtain my BS in Statistics and Data Science. Throughout my coursework and projects, I've strengthened my abilities in data cleaning, preprocessing, modeling, and interpretation to make informed decisions. I am passionate about using data to solve real-world problems and I'm eager to apply my skills in practical and impactful ways.
 
 </div>
 

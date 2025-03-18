@@ -3,3 +3,32 @@
   text-align: justify;
   text-justify: inter-word; /* Helps balance word spacing */
 }
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.caption-hover {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6); /* Black with transparency */
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .caption-hover {
+  opacity: 1;
+}
