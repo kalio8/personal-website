@@ -95,7 +95,7 @@
     "href": "racing.html",
     "title": "Pirelli vs. Hankook Tires",
     "section": "",
-    "text": "GitHub Repo"
+    "text": "GitHub Repo\nLanguage: R\nPackages: dplyr, tidyverse, broom, ggplot2"
   },
   {
     "objectID": "racing.html#introduction",

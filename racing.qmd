@@ -10,6 +10,10 @@ format:
 
 [GitHub Repo](https://github.com/kalio8/Pirelli-vs-Hankook-)
 
+Language: R
+
+Packages: dplyr, tidyverse, broom, ggplot2
+
 ## Introduction
 
 In professional racing, tires play a critical role in racing performance. With the recent transition from Pirelli to Hankook tires in the Lamborghini Super Trofeo series, our team analyzed how this change impacted race performance. By examining lap time data and other features from multiple racing seasons, we assessed the effects of tire degradation and overall performance differences between Pirelli and Hankook. Our analysis provides insights into how tire type influence speed and durability, particularly under varying weather and track conditions.
